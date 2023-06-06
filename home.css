@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+#smallpic {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: myFont;
+  color: #4b0606;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: 1px 1px 1px white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+#navMenu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: myFont;
+  margin-right: 60px; 
+}
+
+#navMenu a:hover {
+  color: #690c0c;
+  text-decoration: underline;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+#bigpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+/*FONTS*/
+@font-face {
+    font-family: myFont;
+    src:url(OptimusPrinceps.ttf);
+}
